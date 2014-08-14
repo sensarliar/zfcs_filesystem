@@ -1,0 +1,13 @@
+Package: oprofile-example
+Version: git-r2
+Description: oprofile-example version git-r2
+ OProfile Example
+Section: system
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD
+Architecture: armv7ahf-vfp-neon-3.2
+OE: oprofile-example
+Homepage: https://gitorious.org/oprofile-example
+Depends: libc6 (>= 2.15)
+Source: git://gitorious.org/oprofile-example/oprofile-example.git;protocol=git;branch=master

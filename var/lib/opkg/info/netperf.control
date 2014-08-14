@@ -1,0 +1,14 @@
+Package: netperf
+Version: 2.4.4-r1
+Description: netperf version 2.4.4-r1
+ Network performance benchmark including tests for TCP, UDP, sockets, ATM
+ and more.
+Section: console/network
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2+
+Architecture: armv7ahf-vfp-neon-3.2
+OE: netperf
+Homepage: http://www.netperf.org/
+Depends: update-rc.d, libc6 (>= 2.15)
+Source: ftp://ftp.netperf.org/netperf/archive/netperf-2.4.4.tar.bz2 file://cpu_set.patch file://vfork.patch file://init

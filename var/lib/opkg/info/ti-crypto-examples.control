@@ -1,0 +1,13 @@
+Package: ti-crypto-examples
+Version: git-r5-arago1
+Description: ti-crypto-examples version git-r5-arago1
+ TI Cryptography Example Applications
+Section: console
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD
+Architecture: armv7ahf-vfp-neon-3.2
+OE: ti-crypto-examples
+Homepage: http://arago-project.org/git/projects/?p=crypto-example-apps.git;a=summary
+Depends: libssl1.0.0 (>= 1.0.0j), libc6 (>= 2.15), libcrypto1.0.0 (>= 1.0.0j)
+Source: git://arago-project.org/git/projects/crypto-example-apps.git;protocol=git;branch=master

@@ -1,0 +1,13 @@
+Package: matrix-gui-bluetooth-demos
+Version: 1.0-r13
+Description: bluetooth-gui version 1.0-r13
+ Bluetooth GUI Application
+Section: network
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD
+Architecture: armv7ahf-vfp-neon-3.2
+OE: bluetooth-gui
+Homepage: unknown
+Depends: bluetooth-gui, matrix-gui-submenus-wifi, matrix-gui-apps-images
+Source: git://www.github.com/TI-ECS/BT_Demo.git;protocol=git;branch=master file://bluetooth-icon.png file://desc_bluetooth.html file://bt_demo.desktop

@@ -1,0 +1,12 @@
+Package: wifi-direct-launcher
+Version: 1.0-r0
+Description: wifi-direct-launcher version 1.0-r0
+ wifi-direct-launcher version 1.0-r0
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: all
+OE: wifi-direct-launcher
+Homepage: unknown
+Source: file://wifi-direct-launcher.sh

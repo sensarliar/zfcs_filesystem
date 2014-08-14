@@ -1,0 +1,13 @@
+Package: matrix-gui-wifi-direct-demo
+Version: git-r7
+Description: wifi-direct-demo version git-r7
+ Wifi Direct Demo
+Section: network
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2
+Architecture: armv7ahf-vfp-neon-3.2
+OE: wifi-direct-demo
+Homepage: unknown
+Depends: wifi-direct-demo, matrix-gui-submenus-wifi, matrix-gui-apps-images
+Source: git://www.github.com/TI-ECS/wifi-direct-demo.git;protocol=git;branch=master file://wifi-direct-demo.desktop

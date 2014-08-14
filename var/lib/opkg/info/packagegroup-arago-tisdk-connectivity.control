@@ -1,0 +1,13 @@
+Package: packagegroup-arago-tisdk-connectivity
+Version: 1.0-r9
+Description: packagegroup-arago-tisdk-connectivity version 1.0-r9
+ Task to install wlan and bluetooth packages into the target FS
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: am335x_evm
+OE: packagegroup-arago-tisdk-connectivity
+Homepage: unknown
+Depends: eventdump, pulseaudio-module-loopback, bt-enable, bluetooth-gui, battleship, iw, pulseaudio-module-bluetooth-discover, ti-compat-wireless-wl12xx, htop, ti-compat-bluetooth, wifi-direct-demo, libopenobex1, openobex-apps, obexd, pulseaudio-module-bluetooth-device, obex-client, oppserver, bt-firmware, libasound-module-bluez, wl12xx-firmware, wireless-tools, bluez4-agent, ti-wifi-utils, wl1271-demo, wpa-gui-e, wpa-supplicant, obexftp, netperf, pulseaudio, softap-udhcpd-config, pulseaudio-server, bluez4, ussp-push, bluez-hcidump, bluez-tools, crda, hostap-daemon
+Source: None

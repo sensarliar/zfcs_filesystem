@@ -1,0 +1,13 @@
+Package: ti-compat-bluetooth
+Version: r5.sp3.05-r19b-r0
+Description: ti-compat-bluetooth version r5.sp3.05-r19b-r0
+ TI compat-bluetooth drivers
+Section: kernel/modules
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2
+Architecture: am335x_evm
+OE: ti-compat-bluetooth
+Homepage: https://gforge.ti.com/gf/project/ecs_nlcp/
+Depends: ti-compat-wireless-wl12xx
+Source: https://gforge.ti.com/gf/download/frsrelease/802/5435/ti-compat-bluetooth-2012-02-20.tar.gz file://0001-compat-bluetooth-2.6-removed-unused-BT-modules-from-.patch file://0002-Bluetooth-Fix-l2cap-conn-failures-for-ssp-devices.patch file://0001-compat-bluetooth-fixing-kernel-panic-in-l2cap.patch

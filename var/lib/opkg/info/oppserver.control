@@ -1,0 +1,13 @@
+Package: oppserver
+Version: 1.0-r0
+Description: oppserver version 1.0-r0
+ OPP Server
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD
+Architecture: armv7ahf-vfp-neon-3.2
+OE: oppserver
+Homepage: unknown
+Depends: bluez4 (>= 4.98), libopenobex1 (>= 1.5), libc6 (>= 2.15)
+Source: https://gforge.ti.com/gf/download/frsrelease/803/5450/oppserver.tar.gz

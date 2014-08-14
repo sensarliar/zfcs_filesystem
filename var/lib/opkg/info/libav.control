@@ -1,0 +1,15 @@
+Package: libav
+Version: 0.8.3+git1+2fb4be9a99a2c2a9435339830e3d940171cc0d9b-r6.0-arago1-arago0
+Description: libav version 0.8.3+git1+2fb4be9a99a2c2a9435339830e3d940171cc0d9b-r6.0-arago1-arago0
+ Libav is a complete, cross-platform solution to record, convert and
+ stream audio and video.
+Section: libs
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2+
+Architecture: armv7ahf-vfp-neon-3.2
+OE: libav
+Homepage: http://libav.org/
+Depends: libswscale2 (>= 0.8.3+git1+2fb4be9a99a2c2a9435339830e3d940171cc0d9b), libavcodec53 (>= 0.8.3+git1+2fb4be9a99a2c2a9435339830e3d940171cc0d9b), libavformat53 (>= 0.8.3+git1+2fb4be9a99a2c2a9435339830e3d940171cc0d9b), libsdl-1.2-0 (>= 1.2.15), libavdevice53 (>= 0.8.3+git1+2fb4be9a99a2c2a9435339830e3d940171cc0d9b), libc6 (>= 2.15), libavfilter2 (>= 0.8.3+git1+2fb4be9a99a2c2a9435339830e3d940171cc0d9b), libpostproc52 (>= 0.8.3+git1+2fb4be9a99a2c2a9435339830e3d940171cc0d9b), libavutil51 (>= 0.8.3+git1+2fb4be9a99a2c2a9435339830e3d940171cc0d9b), libgcc-s1 (>= 4.7.3)
+Suggests: mplayer
+Source: git://git.libav.org/libav.git;protocol=git;branch=release/0.8

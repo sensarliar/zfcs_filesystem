@@ -1,0 +1,14 @@
+Package: bt-firmware
+Version: git-r3+gitradbc27c11d5c5c8c20a93a8beca647b4a6aaa03b
+Description: bt-firmware version git-r3+gitradbc27c11d5c5c8c20a93a8beca647b4a6aaa03b
+ Firmware files for Bluetooth
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: TI-TSPA
+Architecture: am335x_evm
+OE: bt-firmware
+Homepage: unknown
+Replaces: linux-firmware-wl12xx
+Conflicts: linux-firmware-wl12xx
+Source: git://github.com/TI-ECS/bt-firmware.git;protocol=git file://0001-Makefile-allow-building-within-the-OE.patch

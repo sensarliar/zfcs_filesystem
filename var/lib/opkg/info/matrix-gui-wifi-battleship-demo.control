@@ -1,0 +1,13 @@
+Package: matrix-gui-wifi-battleship-demo
+Version: git-r9+gitrb5d47f31da94545f89b0333b879b533003f5c841
+Description: battleship version git-r9+gitrb5d47f31da94545f89b0333b879b533003f5c841
+ Battleship game with wifi direct
+Section: network
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2
+Architecture: armv7ahf-vfp-neon-3.2
+OE: battleship
+Homepage: unknown
+Depends: battleship, matrix-gui-submenus-wifi, matrix-gui-apps-images
+Source: git://www.github.com/TI-ECS/battleship.git;protocol=git;branch=master file://battleship.desktop

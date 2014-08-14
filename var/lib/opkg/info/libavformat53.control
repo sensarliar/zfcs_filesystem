@@ -1,0 +1,13 @@
+Package: libavformat53
+Version: 0.8.3+git1+2fb4be9a99a2c2a9435339830e3d940171cc0d9b-r6.0-arago1-arago0
+Description: libav version 0.8.3+git1+2fb4be9a99a2c2a9435339830e3d940171cc0d9b-r6.0-arago1-arago0
+ libav avformat library
+Section: libs
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2+
+Architecture: armv7ahf-vfp-neon-3.2
+OE: libav
+Homepage: http://libav.org/
+Depends: libavcodec53 (>= 0.8.3+git1+2fb4be9a99a2c2a9435339830e3d940171cc0d9b), libz1 (>= 1.2.7), libbz2-0 (>= 1.0.6), libc6 (>= 2.15), libav, libavutil51 (>= 0.8.3+git1+2fb4be9a99a2c2a9435339830e3d940171cc0d9b), libgcc-s1 (>= 4.7.3)
+Source: git://git.libav.org/libav.git;protocol=git;branch=release/0.8

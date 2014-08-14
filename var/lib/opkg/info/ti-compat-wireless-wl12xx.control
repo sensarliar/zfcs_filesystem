@@ -1,0 +1,13 @@
+Package: ti-compat-wireless-wl12xx
+Version: r5.sp4.01-r19e
+Description: ti-compat-wireless-wl12xx version r5.sp4.01-r19e
+ ti compat-wireless drivers
+Section: kernel/modules
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2
+Architecture: am335x_evm
+OE: ti-compat-wireless-wl12xx
+Homepage: https://gforge.ti.com/gf/project/ecs_nlcp/
+Depends: wireless-tools
+Source: git://github.com/TI-OpenLink/compat-wireless.git;destsuffix=compat-wireless;name=compat-wireless git://github.com/TI-OpenLink/compat.git;destsuffix=compat;name=compat git://github.com/TI-OpenLink/wl12xx.git;destsuffix=wl12xx;name=wl12xx file://0001-git-version-use-compat-base-tree.patch;patchdir=../wl12xx file://0001-compat-wireless-add-pm_runtime_enabled.patch;patchdir=../compat file://0001-wl12xx-additional-two-members-for-wl12xx_platform_da.patch;patchdir=../wl12xx file://0001-wl12xx-Decrease-number-of-RX-transactions.patch;patchdir=../wl12xx file://0002-wl12xx-Decrease-number-of-TX-transactions.patch;patchdir=../wl12xx

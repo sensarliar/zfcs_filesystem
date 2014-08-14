@@ -1,0 +1,13 @@
+Package: wl1271-demo
+Version: git-r5+gitr1+7736f86b8c157ffc3e2a0b9e55a97c093faae14e
+Description: wl1271-demo version git-r5+gitr1+7736f86b8c157ffc3e2a0b9e55a97c093faae14e
+ Initialization and demo application for bluetooth on WL1271 chipset
+Section: network
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD
+Architecture: am335x_evm
+OE: wl1271-demo
+Homepage: unknown
+Depends: obex-client, obexftp, bluez4, ussp-push, bluez-hcidump, libopenobex1
+Source: git://github.com/TI-ECS/wl1271-bluetooth.git;protocol=git;branch=wl12xx file://0001-Add-additional-hci0-up.patch

@@ -1,0 +1,13 @@
+Package: crda
+Version: 1.1.1-r0
+Description: crda version 1.1.1-r0
+ Wireless Central Regulatory Domain Agent
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: ISC
+Architecture: armv7ahf-vfp-neon-3.2
+OE: crda
+Homepage: http://wireless.kernel.org/en/developers/Regulatory/CRDA
+Depends: udev, libnl-route2 (>= 2.0), libc6 (>= 2.15), libnl2 (>= 2.0), libnl-genl2 (>= 2.0), libgcrypt11 (>= 1.5.0), libnl-nf2 (>= 2.0)
+Source: http://wireless.kernel.org/download/crda/crda-1.1.1.tar.bz2;name=crda http://wireless.kernel.org/download/wireless-regdb/regulatory.bins/2011.04.28-regulatory.bin;name=reg

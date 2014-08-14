@@ -1,0 +1,13 @@
+Package: wilink-calibrate
+Version: 1.0-r0
+Description: wilink-calibrate version 1.0-r0
+ wilink-calibrate version 1.0-r0
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: armv7ahf-vfp-neon-3.2
+OE: wilink-calibrate
+Homepage: unknown
+Depends: update-rc.d
+Source: file://calibrate.sh

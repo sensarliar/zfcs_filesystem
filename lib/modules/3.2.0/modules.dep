@@ -1,0 +1,30 @@
+kernel/crypto/tcrypt.ko:
+kernel/drivers/scsi/scsi_wait_scan.ko:
+kernel/drivers/usb/gadget/g_ether.ko:
+kernel/drivers/usb/gadget/g_file_storage.ko:
+kernel/drivers/usb/gadget/g_mass_storage.ko:
+kernel/drivers/hid/hid-logitech-dj.ko:
+kernel/drivers/bt_enable/gpio_en.ko:
+updates/drivers/bluetooth/btusb.ko: updates/net/bluetooth/bluetooth.ko
+kernel/drivers/gpu/pvr/omaplfb.ko: kernel/drivers/gpu/pvr/pvrsrvkm.ko
+updates/drivers/net/wireless/wl1251/wl1251_spi.ko: updates/drivers/net/wireless/wl1251/wl1251.ko updates/net/mac80211/mac80211.ko updates/net/wireless/cfg80211.ko
+kernel/drivers/gpu/pvr/pvrsrvkm.ko:
+updates/net/bluetooth/hidp/hidp.ko: updates/net/bluetooth/bluetooth.ko
+updates/drivers/bluetooth/bfusb.ko: updates/net/bluetooth/bluetooth.ko
+updates/net/bluetooth/bluetooth.ko:
+updates/drivers/net/wireless/wl12xx/wl12xx.ko: updates/net/mac80211/mac80211.ko updates/net/wireless/cfg80211.ko
+updates/drivers/bluetooth/bpa10x.ko: updates/net/bluetooth/bluetooth.ko
+kernel/drivers/gpu/pvr/bufferclass_ti.ko: kernel/drivers/gpu/pvr/pvrsrvkm.ko
+updates/drivers/bluetooth/hci_vhci.ko: updates/net/bluetooth/bluetooth.ko
+updates/drivers/net/wireless/wl12xx/wl12xx_spi.ko:
+updates/drivers/bluetooth/hci_uart.ko: updates/net/bluetooth/bluetooth.ko
+updates/drivers/bluetooth/ath3k.ko: updates/net/bluetooth/bluetooth.ko
+updates/net/wireless/cfg80211.ko:
+updates/net/bluetooth/rfcomm/rfcomm.ko: updates/net/bluetooth/bluetooth.ko
+updates/drivers/net/wireless/wl1251/wl1251.ko: updates/net/mac80211/mac80211.ko updates/net/wireless/cfg80211.ko
+updates/net/bluetooth/bnep/bnep.ko: updates/net/bluetooth/bluetooth.ko
+updates/drivers/bluetooth/bcm203x.ko: updates/net/bluetooth/bluetooth.ko
+updates/drivers/net/wireless/wl1251/wl1251_sdio.ko: updates/drivers/net/wireless/wl1251/wl1251.ko updates/net/mac80211/mac80211.ko updates/net/wireless/cfg80211.ko
+updates/drivers/net/wireless/wl12xx/wl12xx_sdio.ko:
+updates/net/mac80211/mac80211.ko: updates/net/wireless/cfg80211.ko
+updates/compat/compat.ko:

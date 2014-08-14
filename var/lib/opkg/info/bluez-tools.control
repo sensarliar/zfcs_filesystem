@@ -1,0 +1,13 @@
+Package: bluez-tools
+Version: git-r3+gitr171181b6ef6c94aefc828dc7fd8de136b9f97532
+Description: bluez-tools version git-r3+gitr171181b6ef6c94aefc828dc7fd8de136b9f97532
+ Bluez Tools
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2
+Architecture: armv7ahf-vfp-neon-3.2
+OE: bluez-tools
+Homepage: http://code.google.com/p/bluez-tools/
+Depends: obexd, libdbus-1-3 (>= 1.6.4), libdbus-glib-1-2 (>= 0.100), libreadline5 (>= 5.2), bluez4, libc6 (>= 2.15), libglib-2.0-0 (>= 2.32.4)
+Source: git://gitorious.org/bluez-tools/bluez-tools.git;protocol=git

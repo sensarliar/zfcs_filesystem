@@ -1,0 +1,13 @@
+Package: bt-enable
+Version: 1.0-r19c+gitr97c4600ff7d39f1cc6079939248cd9ed15100db4
+Description: bt-enable version 1.0-r19c+gitr97c4600ff7d39f1cc6079939248cd9ed15100db4
+ BT GPIO Enable
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD
+Architecture: am335x_evm
+OE: bt-enable
+Homepage: unknown
+Depends: update-modules, kernel-image-3.2.0
+Source: git://github.com/TI-ECS/bt_enable.git;protocol=git file://0001-Makefile-Update-makefile-to-work-well-in-OE.patch

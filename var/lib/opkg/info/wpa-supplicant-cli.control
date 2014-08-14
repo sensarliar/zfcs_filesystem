@@ -1,0 +1,13 @@
+Package: wpa-supplicant-cli
+Version: r5.sp4.01-r6c+gitr1+24422aac51de27e9441b8084616b2cfc01e3b81d-arago0
+Description: wpa-supplicant version r5.sp4.01-r6c+gitr1+24422aac51de27e9441b8084616b2cfc01e3b81d-arago0
+ A Client for Wi-Fi Protected Access (WPA).
+Section: network
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2 | BSD
+Architecture: armv7ahf-vfp-neon-3.2
+OE: wpa-supplicant
+Homepage: http://hostap.epitest.fi/wpa_supplicant/
+Depends: libc6 (>= 2.15)
+Source: git://github.com/TI-OpenLink/hostap.git;protocol=git file://defconfig file://defaults-sane file://wpa-supplicant.sh file://wpa_supplicant.conf file://wpa_supplicant.conf-sane file://99_wpa_supplicant file://wpa_supplicant.conf file://fi.epitest.hostap.WPASupplicant.service file://fi.w1.wpa_supplicant1.service

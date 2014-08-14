@@ -1,0 +1,16 @@
+/lib/modules/3.2.0/updates/drivers/bluetooth/hci_vhci.ko
+/lib/modules/3.2.0/updates/net/bluetooth/hidp/
+/lib/modules/3.2.0/updates/net/bluetooth/rfcomm/
+/lib/modules/3.2.0/updates/net/bluetooth/bnep/bnep.ko
+/lib/modules/3.2.0/updates/drivers/bluetooth/bpa10x.ko
+/lib/modules/3.2.0/updates/net/bluetooth/bluetooth.ko
+/lib/modules/3.2.0/updates/drivers/bluetooth/btusb.ko
+/lib/modules/3.2.0/updates/drivers/bluetooth/bcm203x.ko
+/lib/modules/3.2.0/updates/net/bluetooth/hidp/hidp.ko
+/lib/modules/3.2.0/updates/drivers/bluetooth/hci_uart.ko
+/lib/modules/3.2.0/updates/net/bluetooth/rfcomm/rfcomm.ko
+/lib/modules/3.2.0/updates/net/bluetooth/
+/lib/modules/3.2.0/updates/drivers/bluetooth/bfusb.ko
+/lib/modules/3.2.0/updates/net/bluetooth/bnep/
+/lib/modules/3.2.0/updates/drivers/bluetooth/
+/lib/modules/3.2.0/updates/drivers/bluetooth/ath3k.ko

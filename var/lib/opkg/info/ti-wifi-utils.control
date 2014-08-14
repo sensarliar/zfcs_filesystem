@@ -1,0 +1,14 @@
+Package: ti-wifi-utils
+Version: r5.sp3.05-r1d+gitr1+f4508cf40df603456d806e2c64fd4a99b13d1aaf
+Description: ti-wifi-utils version r5.sp3.05-r1d+gitr1+f4508cf40df603456d806e2c64fd4a99b13d1aaf
+ The calibrator and other useful utilities for TI wireless solution based
+ on wl12xx driver
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD
+Architecture: armv7ahf-vfp-neon-3.2
+OE: ti-wifi-utils
+Homepage: unknown
+Depends: wilink-calibrate, libnl2 (>= 2.0), libnl-genl2 (>= 2.0), libc6 (>= 2.15)
+Source: git://github.com/TI-OpenLink/ti-utils.git;protocol=git

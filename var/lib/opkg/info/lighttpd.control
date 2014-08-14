@@ -1,0 +1,13 @@
+Package: lighttpd
+Version: 1.4.31-r0
+Description: lighttpd version 1.4.31-r0
+ Lightweight high-performance web server
+Section: net
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD
+Architecture: armv7ahf-vfp-neon-3.2
+OE: lighttpd
+Homepage: http://www.lighttpd.net/
+Depends: lighttpd-module-dirlisting, update-rc.d, lighttpd-module-access, libc6 (>= 2.15), libpcre (>= 8.31), lighttpd-module-staticfile, lighttpd-module-indexfile, libgcc-s1 (>= 4.7.3), lighttpd-module-accesslog
+Source: http://download.lighttpd.net/lighttpd/releases-1.4.x/lighttpd-1.4.31.tar.bz2 file://index.html.lighttpd file://lighttpd.conf file://lighttpd file://lighttpd_fix_for_automake-1.12.patch

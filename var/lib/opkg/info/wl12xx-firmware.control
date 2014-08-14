@@ -1,0 +1,14 @@
+Package: wl12xx-firmware
+Version: r5.sp4.01-r4+gitr1+78c4baa48de7528a5eff2f7904022f2ad92bf030
+Description: wl12xx-firmware version r5.sp4.01-r4+gitr1+78c4baa48de7528a5eff2f7904022f2ad92bf030
+ Firmware files for use with TI wl12xx
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: TI-TSPA
+Architecture: all
+OE: wl12xx-firmware
+Homepage: unknown
+Provides: linux-firmware-wl12xx
+Conflicts: linux-firmware-wl12xx
+Source: git://github.com/TI-OpenLink/ti-utils.git;protocol=git file://Makefile file://wl1271-nvs.bin-wilink6

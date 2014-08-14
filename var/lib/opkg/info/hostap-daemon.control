@@ -1,0 +1,13 @@
+Package: hostap-daemon
+Version: r5.sp4.01-r4c+gitr1+24422aac51de27e9441b8084616b2cfc01e3b81d
+Description: hostap-daemon version r5.sp4.01-r4c+gitr1+24422aac51de27e9441b8084616b2cfc01e3b81d
+ User space daemon for extended IEEE 802.11 management
+Section: kernel/userland
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2
+Architecture: armv7ahf-vfp-neon-3.2
+OE: hostap-daemon
+Homepage: http://hostap.epitest.fi
+Depends: libssl1.0.0 (>= 1.0.0j), update-rc.d, libcrypto1.0.0 (>= 1.0.0j), libc6 (>= 2.15), libnl2 (>= 2.0), libnl-genl2 (>= 2.0)
+Source: git://github.com/TI-OpenLink/hostap.git;protocol=git file://0001-hostapd-change-conf-file-for-better-oob-startup.patch;patchdir=.. file://defconfig file://init

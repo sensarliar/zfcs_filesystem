@@ -1,0 +1,13 @@
+Package: omap3-sgx-modules
+Version: 4.09.00.01-r19b
+Description: omap3-sgx-modules version 4.09.00.01-r19b
+ Kernel drivers for the PowerVR SGX chipset found in the omap3 SoCs
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2
+Architecture: am335x_evm
+OE: omap3-sgx-modules
+Homepage: unknown
+Depends: update-modules, kernel-image-3.2.0
+Source: http://software-dl.ti.com/dsps/dsps_public_sw/sdo_sb/targetcontent/gfxsdk/4_09_00_01/exports/Graphics_SDK_setuplinux_4_09_00_01_hardfp_minimal_demos.bin
