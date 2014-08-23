@@ -16,3 +16,7 @@ remote: warning: GH001: Large files detected.
 remote: warning: See http://git.io/iEPt8g for more information.
 remote: warning: File usr/share/doc/qtopia/qch/qt.qch is 56.00 MB; this is larger than GitHub's recommended maximum file size of 50 MB
 
+
+
+remember you should copy this with root privilege.  
+"sudo cp -R "not"cp -a"
